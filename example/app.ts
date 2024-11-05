@@ -1,2 +1,4 @@
 import Bomb from "bomb-core/core";
-const app = Bomb();
+console.log(process.pid);
+
+const app = Bomb({ appPath: __dirname });

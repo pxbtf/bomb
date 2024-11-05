@@ -9,6 +9,13 @@
   "author": "pxbtf",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.15.3"
+    "@types/node": "^22.8.7",
+    "koa": "^2.15.3",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
