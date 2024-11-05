@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e ts,ejs --exec ts-node -T ./app.ts"
+    "dev": "cross-env NODE_ENV=development && nodemon -e ts,ejs --exec ts-node -T ./app.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }

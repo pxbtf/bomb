@@ -95,7 +95,8 @@
     "include": [
         "./core",
         "./interface",
-        "index.d.ts"
+        "index.d.ts",
+        "core/utils"
     ],
     "files": [
         "index.d.ts"

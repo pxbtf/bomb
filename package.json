@@ -4,13 +4,10 @@
   "description": "一款可以对标Egg的BFF企业级框架",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development && cd example && npm run dev"
+    "dev": "cd example && npm run dev"
   },
   "author": "pxbtf",
   "license": "ISC",
-  "devDependencies": {
-    "cross-env": "^7.0.3"
-  },
   "dependencies": {
     "lerna": "^8.1.9"
   }
